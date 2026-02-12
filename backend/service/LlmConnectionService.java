@@ -30,7 +30,7 @@ public class LlmConnectionService implements LlmConnectionRepository{
 
             HttpHeaders headers = new HttpHeaders();
             headers.setContentType(MediaType.APPLICATION_JSON);
-            headers.set("Authorization", "Bearer " + "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");
+            headers.set("Authorization", "Bearer " + "MY_API_KEY_HERE");
 
             Map<String, String> message = new HashMap<>();
             message.put("role", "user");
@@ -184,3 +184,4 @@ public class LlmConnectionService implements LlmConnectionRepository{
         return lst;
     }
 }
+
