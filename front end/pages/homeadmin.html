@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Mainten Admin</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="C:/Users/kaila/Desktop/Mainten/front end/css/homeadmin.css" />
+
+
+
+</head>
+
+<body>
+    <div class="user-home">
+        <h1 class="mainten-text-home-page text-center">Mainten</h1>
+        <p class="mainten-username-home text-center" id="userName">usermailId</p>
+        <div class="user-home-page-navs">
+            <ul class="nav nav-pills nav-justified">
+                <li class="nav-item">
+                    <a class="nav-link active" id="itemNav">Items</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="dashboardNav">My Dashboard</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="requestNav">Requests</a>
+                </li>
+                   <li class="nav-item">
+                    <a class="nav-link" id="orgDashboardNav">Org Dashboard</a>
+                </li>
+            </ul>
+        </div>
+        <hr class="ruler">
+        <div class="content-area mt-4 pt-4">
+            <h1 class="error-message text-center d-none" id="errorMessage"> Nothing found here</h1>
+            <div class="spinner-border text-center" id="spinner" role="status">
+               <span class="visually-hidden"></span>
+           </div>
+            <div id="successAlert" class="alert alert-success" style="display:none; position:fixed; top:20px; right:20px; z-index:1051;">
+                ✅ Item added successfully!
+            </div>
+            <div id="requestSuccessAlert" class="alert alert-success" style="display:none; position:fixed; top:20px; right:20px; z-index:1051;">
+                ✅ Item added to org
+            </div>
+             <div id="requestFailiureAlert" class="alert alert-danger" style="display:none; position:fixed; top:20px; right:20px; z-index:1051;">
+                 Request Declined
+            </div>
+              <div id="clearAlert" class="alert alert-danger" style="display:none; position:fixed; top:20px; right:20px; z-index:1051;">
+                 cleared org dashboard
+            </div>
+            <div class="content" id="contents">
+
+
+                <!--   <div class = "item-card shadow-sm d-flex flex-row">
+                  <p class = "item-name-card">Item name</p>
+                  <div class = "ml-auto">
+                       <button class = "btn btn-info add-button-card">+</button>
+                      
+                  </div>
+                  
+              </div> -->
+
+            </div>
+        </div>
+
+
+
+
+    </div>
+    <script src="../js/homeadmin.js"></script>
+
+
+</body>
+
+</html>

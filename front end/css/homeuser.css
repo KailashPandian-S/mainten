@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+
+body {
+    background-color: #dfe3f0;
+    min-height: 100vh;
+    padding: 15px;
+    font-size: 20px;
+    font-family: Bree serif;
+}
+
+.mainten-text-home-page {
+    color: #0c1b54;
+    margin-bottom: 10px;
+
+}
+
+.mainten-username-home {
+    margin-bottom: 30px;
+    color: #0c1b54;
+    font-size: 15px;
+}
+
+.user-home-page-navs {
+    font-size: 15px;
+    font-family: "Roboto";
+
+}
+
+.ruler {
+    border-color: #545454;
+    border-width: 2px;
+}
+
+.content-area {
+    font-family: "Roboto";
+    font-size: 15px;
+}
+
+.error-message {
+    font-size: 15px;
+}
+
+.item-card {
+    padding: 15px;
+    background-color: white;
+    border-radius: 5px;
+    margin: 20px;
+}
+
+.item-name-card {
+    color: #2c2d33;
+    font-size: 15px;
+}
+
+.item-date-card {
+    color: #2c2d33;
+    font-size: 13px;
+}
+
+/* .add-button-card {} */
+
+.quantity-input {
+    width: 40px;
+}
+
+.item-name-input {
+    width: 80%;
+}
+
+.add-item-button-container {
+    margin-bottom: 12px;
+    padding-right: 30px;
+}
+
+.modal-styles {
+    font-family: "Roboto";
+    font-size: 17px;
+}
